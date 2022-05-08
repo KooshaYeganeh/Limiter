@@ -1,0 +1,42 @@
+#!/usr/bin/bash
+
+green=$'\e[1;32m' # green colour
+
+orange=$'\e[1;33m' # orange colour
+
+echo "$orange =============================== Complier Limiter ========================================"
+
+groupadd compiler
+cd /usr/bin
+
+chgrp complier *++*
+chgrp complier ls
+chgrp complier as
+
+chmod 750 *++*
+chmod 750 ls
+chmod 750 as
+
+
+echo " $green ======>>> Complier Limiter is [ OK ] <<<====== "
+
+echo "$orange ============================== Command Limiter ==========================================="
+
+cd /root
+
+chmod 700 /usr/bin/ping
+chmod 700 /usr/bin/who
+chmod 700 /usr/bin/locate
+chmod 700 /usr/bin/w
+chmod 700 /usr/bin/whereis
+chmod 700 /usr/bin/ifconfig
+chmod 700 /usr/bin/which
+chmod 700 /usr/bin/make
+chmod 700 /usr/bin/rpm
+
+echo "$green ======>>> Command Limiter is [ OK ] <<<====== "
+
+
+echo "$orange =========================================================================================="
+
+
