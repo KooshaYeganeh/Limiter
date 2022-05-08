@@ -9,5 +9,5 @@ Permission Limiter
 
 Limit Permissions for commands and compilers in Linux Server for Better Security
 
-> HELP for complete commands
+> HELP me for complete commands with pull requests
 
