@@ -29,7 +29,6 @@ chmod 700 /usr/bin/who
 chmod 700 /usr/bin/locate
 chmod 700 /usr/bin/w
 chmod 700 /usr/bin/whereis
-chmod 700 /usr/bin/ifconfig
 chmod 700 /usr/bin/which
 chmod 700 /usr/bin/make
 chmod 700 /usr/bin/rpm
