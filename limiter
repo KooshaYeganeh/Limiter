@@ -32,6 +32,9 @@ chmod 700 /usr/bin/whereis
 chmod 700 /usr/bin/which
 chmod 700 /usr/bin/make
 chmod 700 /usr/bin/rpm
+chmod 700 /usr/bin/su
+chmod 700 /usr/bin/pkill
+chmod 700 /usr/bin/ln
 
 echo "$green ======>>> Command Limiter is [ OK ] <<<====== "
 
