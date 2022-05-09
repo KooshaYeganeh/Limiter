@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+cd /opt
+wget https://github.com/KooshaYeganeh/Limiter/archive/refs/heads/main.zip
+unzip main.zip
+cd Limiter-main
+sudo cp limiter /usr/bin
+cd 
