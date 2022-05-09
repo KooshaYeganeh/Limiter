@@ -1,0 +1,29 @@
+#!/usr/bin/bash
+
+
+
+orange=$'\e[1;33m' # orange colour
+
+groupdel compiler
+
+chmod 777 *++*
+chmod 777 ld
+chmod 777 as
+
+echo " $orange ======>>> compiler group deleted [ OK ] <<<====== "
+echo " $orange ======>>> Change mode of compilers is [ OK ] <<<====== "
+
+chmod 755 /usr/bin/ping
+chmod 755 /usr/bin/who
+chmod 755 /usr/bin/locate
+chmod 755 /usr/bin/w
+chmod 755 /usr/bin/whereis
+chmod 755 /usr/bin/which
+chmod 755 /usr/bin/make
+chmod 755 /usr/bin/rpm
+chmod 755 /usr/bin/su
+chmod 755 /usr/bin/kill
+chmod 755 /usr/bin/ls
+
+
+echo " $orange ======>>> change mode of commands return Default [ OK ] <<<====== "
