@@ -14,7 +14,7 @@ chgrp complier ls
 chgrp complier as
 
 chmod 750 *++*
-chmod 750 ls
+chmod 750 ld
 chmod 750 as
 
 
@@ -33,7 +33,7 @@ chmod 700 /usr/bin/which
 chmod 700 /usr/bin/make
 chmod 700 /usr/bin/rpm
 chmod 700 /usr/bin/su
-chmod 700 /usr/bin/pkill
+chmod 700 /usr/bin/kill
 chmod 700 /usr/bin/ln
 
 echo "$green ======>>> Command Limiter is [ OK ] <<<====== "
